@@ -52,7 +52,7 @@ def get_admin_channels():
 
     for admin in chat_administrators['result']:
         if admin['user']['id'] == bot_id:
-            response = requests.get(f'https://api.telegram.org/bot6371845124:AAEScCRDBxxMIcsz2C0fbY_hBr1vlcIDeM8/getChat?chat_id=@ffffffffffffffffar')
+            response = requests.get(f'https://api.telegram.org/bot{BOT_TOKEN}/getChat?chat_id=@ffffffffffffffffar')
             resp = response.json()
             admin_channels.append(resp['result']['id'])
 
