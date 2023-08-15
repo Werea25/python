@@ -6,7 +6,7 @@ import requests
 from telebot.async_telebot import AsyncTeleBot
 
 # Ваш токен, полученный от @BotFather
-BOT_TOKEN = '6371845124:AAEScCRDBxxMIcsz2C0fbY_hBr1vlcIDeM8'
+BOT_TOKEN = '6371845124:AAHgaMm7YLBt5aGRmDd66mGDEXGjkVGRnaw'
 
 bot = AsyncTeleBot(BOT_TOKEN)
 user_state = {}
