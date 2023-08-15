@@ -125,7 +125,7 @@ async def process_selected_channel(message):
             
             # Create an InlineKeyboardMarkup
             keyboard = types.InlineKeyboardMarkup()
-            callback_button = types.InlineKeyboardButton(text="Скачать", callback_data="download")
+            callback_button = types.InlineKeyboardButton(text="Скачать", callback_data=to_b_sand)
             keyboard.add(callback_button)
             
             # Send the last photo with caption and reply markup
